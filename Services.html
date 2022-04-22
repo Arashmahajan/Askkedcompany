@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Askked : A Complete Solution To All Your IT needs</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/l.jpeg" alt="company logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="Services.html">SERVICES</a></li>
+                    <li><a href="internhips.html">INTERNSHIPS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+
+    <!-----Services----->
+    <!---Services---->
+
+    <section class="services">
+        <h1>Services We Offer</h1>
+        <p>We Provide A Variety Of Services In The Field Of Web development, App development, Software development.</p>
+       
+        <div class="row">
+            <div class="services-col">
+                <h3>Web Development</h3>
+                <p>Full services in frontend as well as backend development</p>
+            </div>
+
+            <div class="services-col">
+                <h3>App Development</h3>
+                <p>Full services in application making for every platform</p>
+            </div>
+
+            <div class="services-col">
+                <h3>Software Development</h3>
+                <p>Full services in making softwares according to user needs</p>
+            </div>
+        </div>
+    </section>
+        <!---Technology--->
+
+
+        <section class="technology">
+            <h1>Our Technological Specialization</h1>
+            <p>We Specialize In These Leaading Technologies :</p>
+    
+            <div class="row">
+                <div class="technology-col">
+                    <img src="images/devops.jpg">
+                    <div class="layer">
+                        <h3>DEV-OPS</h3>
+                    </div>
+                </div>
+    
+    
+                <div class="technology-col">
+                    <img src="images/f.png">
+                    <div class="layer">
+                        <h3>FULL-STACK</h3>
+                    </div>
+                </div>
+    
+            
+    
+                <div class="technology-col">
+                    <img src="images/bc.jpg">
+                    <div class="layer">
+                        <h3>BLOCKCHAIN</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<!----Footer---->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are an IT Freelancing IT COMPANY That Provide Solutions To Your Every IT Need/Problem</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Arash Mahajan</p>
+</section>
+
+
+
+
+    <!--- Toogle Menu --->
+
+    <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+    </script>
+</body>
+</html>
